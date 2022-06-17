@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candeo Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="section1-header bg-light">
+       <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Candeo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active ">Postcard</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+       </div>
+          
+    </div>
+    <div class="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-5 text-center">
+                    <h1>AIR YOUR VIEW TODAY</h1>
+                    <h6 class="text-white">Tomorrow is not promised</h6>
+                    <button class="btn btn-primary mt-3">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <div class="section2-contact container-fluid pt-5">
+            <div class="container">
+                    <div class="section2-top">
+                        <h1>YOUR OPINION IS IMPORTANT TO US</h1>
+                        <p> Drop  us a line or visit us for more information</br> We will be glad to have you</p>
+                
+                    </div>
+                    <div class="section2-bottom ">
+                        <div class="row shadow mb-5 bg-body">
+                            
+                                <h5 class="mb-3 py-3 px-5">POSTCARD</h4>
+                                 <div class=" col-lg-5 request px-5">
+                                <div class="post-title">
+                                    <label for="name" id="name">Post Title</label></br>
+                                     <input type="text" placeholder="Your name" class="theInput mb-2">
+                               </div>
+                                <div class="submit text-primary">
+                                    <button class="btn btn-primary" type="submit">Create Post</button>
+                                </div>
+                                 </div>
+                                 <div class="col-lg-5 contact-body">
+                                            <div class="form">
+                                                <div class="mb-3">
+                                                    <label for="exampleFormControlTextarea1" class="form-label">Post Body</label>
+                                                    <textarea class="form-control" id="body" rows="3"></textarea>
+                                                </div>
+                                            </div>
+                                 </div>
+    
+          
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section3 py-5">
+        <div class="card-section mt-5">
+            <div class="container">
+                <div class="row" id="post-holder">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="card shadow p-1 mb-3 bg-body rounded border-0">
+                            <div class="card-body">
+                                <p>1</p>
+                                <h5 id="post-title">Post title</h5>
+                                <p id="post-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cupiditate laborum,
+                                    soluta debitis iure dolore iusto adipisci optio ipsam, sint amet dolorem possimus
+                                    voluptatum. Voluptate cumque possimus autem alias maiores.</p>
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-4">
+                                    <button class="btn btn-light view px-3">View</button>
+                                     </div>
+                                     <div class="col-lg-4 col-md-4 col-4">
+                                    <button class=" text-white btn update px-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+                                      </svg>Update</button>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-4">
+                                    <button class="text-white btn delete px-1"><svg xmlns="http://www.w3.org/2000/svg" class="px-1" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                                      </svg>Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/app.js"></script>
+    <script src="css/bootstrap.min.css"></script>
+</body>
+</html>

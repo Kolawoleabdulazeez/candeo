@@ -1,0 +1,31 @@
+.section1{
+    background: url('../img/mic.jpg') no-repeat;
+    background-size:cover;
+    background-position: left;
+    min-height: 80vh;
+
+}
+
+.section1 h1{
+    margin-top: 30%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.section3{
+    background: rgb(144, 111, 223);
+}
+
+#post-title{
+    color: rgb(3, 9, 65);
+}
+
+.update{
+    background: rgb(3, 9, 65) !important;
+}
+.delete{
+    background: red !important;
+}
+.view{
+    font-weight: 500 !important;
+}
