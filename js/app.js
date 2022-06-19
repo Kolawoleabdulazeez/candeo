@@ -13,7 +13,7 @@ function getPosts() {
         
         let postBody ="";
         eachCard.forEach(post => {
-        postBody+=`<div class="col-lg-4 col-md-4">
+        postBody+=`<div class="col-lg-4 col-md-6 col-12">
             <div class="card shadow p-1 mb-3 bg-body rounded border-0">
                 <div class="card-body">
                     <p>${post.id}</p>
@@ -67,7 +67,7 @@ function createPost(e) {
             console.log(eachCard)
             let postBody = '';
             eachCard.forEach(post => {
-                postBody +=`<div class="col-lg-4 col-md-4">
+                postBody +=`<div class="col-lg-4 col-md-6 col-12">
                 <div class="card shadow p-1 mb-3 bg-body rounded border-0">
                     <div class="card-body">
                         <p>${post.id}</p>
@@ -153,7 +153,7 @@ function deletePost(id) {
             // renderUI(postBox)
             let postBody ="";
         eachCard.forEach(post => {
-        postBody+=`<div class="col-lg-4 col-md-4">
+        postBody+=`<div class="col-lg-4 col-md-6 col-12">
             <div class="card shadow p-1 mb-3 bg-body rounded border-0">
                 <div class="card-body">
                     <p>${post.id}</p>
