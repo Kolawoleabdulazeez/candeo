@@ -149,9 +149,9 @@ function deletePost(id) {
             console.log(data)
             eachCard = eachCard.filter(post => post.id !== id)
             console.log(eachCard)
-            // // use a function to display the UI
-            // renderUI(postBox)
-            let postBody ="";
+
+
+let postBody ="";
         eachCard.forEach(post => {
         postBody+=`<div class="col-lg-4 col-md-6 col-12">
             <div class="card shadow p-1 mb-3 bg-body rounded border-0">
