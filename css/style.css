@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .section1{
     background: url('../img/mic.jpg') no-repeat;
     background-size:cover;
@@ -6,14 +11,30 @@
 
 }
 
+.section2-bottom label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.card{
+    background: url('../img/ght.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.card p{
+    font-size: 18px;
+}
 .section1 h1{
     margin-top: 30%;
     margin-bottom: 20px;
     color: white;
 }
+.navbar-brand{
+    width: 50%;
+}
 
 .section3{
-    background: rgb(144, 111, 223);
+    background: rgb(250, 248, 250);
 }
 
 #post-title{
@@ -21,11 +42,30 @@
 }
 
 .update{
-    background: rgb(3, 9, 65) !important;
+    background: rgb(1, 15, 139) !important;
 }
 .delete{
-    background: red !important;
+    background: rgb(114, 1, 1) !important;
 }
 .view{
     font-weight: 500 !important;
+}
+
+.section2-top h1, .section2-bottom h4{
+    color: rgb(3, 9, 65);
+}
+
+.btn-theSubmit{
+    background:rgb(3, 9, 65);
+    border: 0;
+    padding: 10px;
+    border-radius:10px ;
+}
+
+
+@media( max-width:425) {
+    .navbar-brand img{
+        width: 100%;
+    }
+    
 }
